@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
 .about {
 
 position: absolute;
@@ -43,4 +45,20 @@ text-align: right;
 
 color: #FF6060;
 
+}
+
+.kasa-logo-header {
+position: absolute;
+left: 0%;
+right: 83.04%;
+top: 0%;
+bottom: 0%;
+}
+
+.header {
+position: absolute;
+width: 1240px;
+height: 68px;
+left: 100px;
+top: 40px;
 }
