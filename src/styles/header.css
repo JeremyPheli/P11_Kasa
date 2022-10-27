@@ -2,11 +2,6 @@
 
 .about {
 
-position: absolute;
-left: 90.65%;
-right: 0%;
-top: 25%;
-bottom: 25%;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -25,11 +20,6 @@ color: #FF6060;
 
 .acceuil {
 
-position: absolute;
-left: 75.08%;
-right: 13.95%;
-top: 25%;
-bottom: 25%;
 
 font-family: 'Montserrat';
 font-style: normal;
@@ -38,27 +28,32 @@ font-size: 24px;
 line-height: 142.6%;
 /* or 34px */
 
-display: flex;
-align-items: flex-end;
-text-align: right;
-/* text-decoration-line: underline; */
 
 color: #FF6060;
 
 }
 
 .kasa-logo-header {
-position: absolute;
-left: 0%;
-right: 83.04%;
-top: 0%;
-bottom: 0%;
+    margin-top: 40px;
 }
 
 .header {
-position: absolute;
-width: 1240px;
-height: 68px;
-left: 100px;
-top: 40px;
+display: flex;
+justify-content: space-between;
+padding-bottom: 60px;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin-left: 30px;
+}
+
+a {
+    text-decoration: none;
 }
