@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import "../styles/about.css";
 
 const DropDown = () => {
+  const [isDown, setIsDown] = useState(false);
+
+  const handleClick = () => {
+    isDown ? setIsDown(false) : setIsDown(true);
+  };
+
   return (
     <div className="dropdown">
       <div className="dropdown-head">
