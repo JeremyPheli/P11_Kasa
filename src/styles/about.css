@@ -3,6 +3,14 @@
 .main {
 display: flex;
 flex-direction: column;
+align-items: center;
+min-height: 76vh;
+}
+
+.dropdown {
+    margin-bottom: 20px;
+    width: 70%;
+    background-color: #e5e5e5;
 }
 
 .dropdown-head {
@@ -11,17 +19,32 @@ flex-direction: column;
     border-radius: 5px;
     color: #fff;
     display: flex;
-    height: 30px;
+    height: 47px;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
 }
 
 h3 {
     margin-left: 10px;
+    font-weight: 500;
+    font-size: 27px;
+    text-transform: capitalize;
 }
 
 .dropdown-content {
     background-color: #e5e5e5;
     border-radius: 0 0 5px 5px;
     font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: #ff6060;
+    padding-left: 15px;
+}
+
+button {
+    background-color: transparent;
+    padding-right: 16px;
+    font-size: 18px;
+    border: 0;
+    cursor: pointer;
+    color: white;
 }

@@ -17,6 +17,7 @@
 .banner-about-img {
     border-radius: 25px;
     margin-bottom: 50px;
+    filter: brightness(0.6);
 }
 
 
