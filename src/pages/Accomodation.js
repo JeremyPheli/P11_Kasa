@@ -5,6 +5,7 @@ import DropDown from "../components/DropDown";
 import Rating from "../components/Rating";
 import Tag from "../components/Tag";
 import { locationList } from "../datas/locationList";
+import "../styles/accomodation.css";
 
 const Accomodation = () => {
   const { id } = useParams();
@@ -15,20 +16,26 @@ const Accomodation = () => {
       <div>
         <Caroussel />
       </div>
-      <div className="header-left">
-        <h1>{accomodation.title}</h1>
-        <h2>{accomodation.location}</h2>
-        <div className="accomodation-tags">
-          <Tag tags={accomodation.tags} />
+      <div className="accomodation-header">
+        <div className="header-left">
+          <h1 className="header-title">{accomodation.title}</h1>
+          <h2 className="header-location">{accomodation.location}</h2>
+          <div className="accomodation-tags">
+            <Tag tags={accomodation.tags} />
+          </div>
         </div>
-      </div>
-      <div className="header-right">
-        <div className="host">
-          <div>{accomodation.host.name}</div>
-          <div>{accomodation.host.picture}</div>
-        </div>
-        <div>
-          <Rating />
+        <div className="header-right">
+          <div className="host">
+            <div className="host-name">{accomodation.host.name}</div>
+            <img
+              src={accomodation.host.picture}
+              alt={"host"}
+              className="img-host"
+            />
+          </div>
+          <div className="accomodation-rating">
+            <Rating rating={accomodation.rating} />
+          </div>
         </div>
       </div>
       <div className="accomodation-dropdown">
