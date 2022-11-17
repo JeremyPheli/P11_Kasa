@@ -14,7 +14,7 @@ const Accomodation = () => {
   return (
     <main className="accomodation">
       <div>
-        <Caroussel />
+        <Caroussel images={accomodation.pictures} />
       </div>
       <div className="accomodation-header">
         <div className="header-left">

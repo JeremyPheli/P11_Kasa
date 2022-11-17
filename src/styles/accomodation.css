@@ -1,16 +1,62 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
+main {
+    min-height: 76vh;
+    padding: 0 7%;
+}
+
 .accomodation {
     display: flex;
     flex-direction: column;
-    min-height: 76vh;
-    padding: 0 7%;
+}
+
+.caroussel {
+    height: 415px;
+    align-self: center;
+    position: relative;
+}
+
+.caroussel-right {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    right: 6px;
+    top: 50%;
+    cursor: pointer;
+    
+}
+
+.caroussel-left {
+    position: absolute;
+    color: white;
+    font-size: 80px;
+    left: 6px;
+    top: 50%;
+    cursor: pointer;
+}
+
+.caroussel-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+    mix-blend-mode: normal;
+}
+
+.caroussel-count {
+    position: absolute;
+    color: white;
+    left: 50%;
+    bottom: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .accomodation-header {
 flex-direction: row;
 margin-bottom: 20px;
 margin-top: 10px;
+display: flex;
+justify-content: space-between;
 }
 
 .header-title {
@@ -36,7 +82,7 @@ margin-top: 10px;
     flex-wrap: wrap;
 }
 
-p {
+.tag {
     color : white;
     font-family: 'Montserrat', sans-serif;
     background-color: #ff6060;
@@ -88,6 +134,13 @@ span {
 
 .accomodation-dropdown {
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
+.accomodation-desc {
+    width: 100%;
+}
+
+.accomodation-equip {
+    width: 100%;
+}

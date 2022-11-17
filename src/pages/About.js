@@ -1,5 +1,5 @@
 import React from "react";
-import BannerAbout from "../components/BannerAbout";
+import Banner from "../components/Banner";
 import DropDown from "../components/DropDown";
 import "../styles/about.css";
 
@@ -13,7 +13,7 @@ const About = () => {
 
   return (
     <div className="main">
-      <BannerAbout />
+      <Banner />
       <DropDown props={data[0]} title={"fiabilité"} />
       <DropDown props={data[1]} title={"respect"} />
       <DropDown props={data[2]} title={"service"} />
