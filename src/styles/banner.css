@@ -6,10 +6,9 @@
     top: 50%;
     display: flex;
     justify-content: center;
-
 }
 
-.banner-img {
+.banner img {
     border-radius: 25px;
     margin-bottom: 50px;
     filter: brightness(0.6);
@@ -23,10 +22,8 @@ font-style: normal;
 font-weight: 500;
 font-size: 40px;
 position: absolute;
-    top: 50%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%, -50%);
-
-
 color: #FFFFFF;
 }

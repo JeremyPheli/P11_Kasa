@@ -21,7 +21,7 @@ main {
     color: white;
     font-size: 80px;
     right: 6px;
-    top: 50%;
+    top: 40%;
     cursor: pointer;
     
 }
@@ -31,7 +31,7 @@ main {
     color: white;
     font-size: 80px;
     left: 6px;
-    top: 50%;
+    top: 40%;
     cursor: pointer;
 }
 
