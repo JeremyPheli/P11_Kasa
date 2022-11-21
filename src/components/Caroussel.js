@@ -1,6 +1,6 @@
 import React from "react";
 import { useState, useEffect } from "react";
-import "../styles/accomodation.css";
+import "../styles/caroussel.css";
 
 const Caroussel = ({ images }) => {
   const [picNumber, setPicNumber] = useState(1);

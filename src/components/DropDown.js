@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../styles/about.css";
+import "../styles/dropdown.css";
 
 const DropDown = ({ props, title }) => {
   const [isDown, setIsDown] = useState(false);

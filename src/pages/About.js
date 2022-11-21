@@ -13,16 +13,13 @@ const About = () => {
 
   return (
     <div className="main">
-      {/* <img
-        src="./images/banner_about_img.png"
-        alt="paysage"
-        className="banner-img"
-      /> */}
       <Banner />
-      <DropDown props={data[0]} title={"fiabilité"} />
-      <DropDown props={data[1]} title={"respect"} />
-      <DropDown props={data[2]} title={"service"} />
-      <DropDown props={data[3]} title={"responsabilité"} />
+      <div className="container-dropdown">
+        <DropDown props={data[0]} title={"fiabilité"} />
+        <DropDown props={data[1]} title={"respect"} />
+        <DropDown props={data[2]} title={"service"} />
+        <DropDown props={data[3]} title={"responsabilité"} />
+      </div>
     </div>
   );
 };
