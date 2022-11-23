@@ -38,3 +38,26 @@
     bottom: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+@media screen and (min-width: 401px) and (max-width: 801px) { 
+
+
+
+    .caroussel{
+        height: 300px;
+    }       
+
+    .caroussel-img {
+        height: 100%;
+    }
+
+    .caroussel-left {
+        font-size: 20px;
+        top: 45%;
+    }
+
+    .caroussel-right {
+        font-size: 20px;
+        top: 45%;
+    }
+}

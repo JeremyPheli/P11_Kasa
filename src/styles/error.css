@@ -24,3 +24,21 @@ font-weight: 700;
     margin-top: 180px;
     margin-bottom: 40px;
 }
+
+.container-error {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 401px) and (max-width: 801px) { 
+
+    .text-error {
+        font-size: 18px;
+    }
+
+    .title-error {
+        font-size: 96px;
+    }
+
+
+
+}

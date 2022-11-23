@@ -5,11 +5,9 @@ import "../styles/header.css";
 
 const Header = () => {
   return (
-    <div className="header">
-      <div className="kasa-logo-header">
-        <img src={logo} alt="logo-kasa" />
-      </div>
-      <div>
+    <header>
+      <img src={logo} alt="logo-kasa" className="logo-header" />
+      <nav>
         <ul className="nav">
           <NavLink to="/">
             <li className="acceuil">Acceuil</li>
@@ -18,8 +16,8 @@ const Header = () => {
             <li className="about">A propos</li>
           </NavLink>
         </ul>
-      </div>
-    </div>
+      </nav>
+    </header>
   );
 };
 

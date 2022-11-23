@@ -107,3 +107,54 @@ span {
 .dropdown {
     width: 100%;
 }
+
+@media screen and (min-width: 401px) and (max-width: 801px) { 
+
+.accomodation-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-title {
+    font-size: 20px;
+    margin-left: 0;
+    text-align: left;
+}
+
+.header-location {
+    font-size: 14px;
+}
+
+.header-right {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.img-host {
+    width: 32px;
+}
+
+.host-name {
+    font-size: 12px;
+}
+
+span {
+    font-size: 15px;
+}
+
+.accomodation-dropdown {
+    display: contents;
+}
+
+.accomodation-desc {
+    width: 100%;
+}
+
+.accomodation-equip {
+    width: 100%;
+}
+
+
+}

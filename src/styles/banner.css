@@ -4,14 +4,13 @@
 
     position: relative;
     top: 50%;
-    display: flex;
-    justify-content: center;
 }
 
 .banner img {
     border-radius: 25px;
     margin-bottom: 50px;
     filter: brightness(0.6);
+    width: 100%;
 }
 
 
@@ -27,3 +26,18 @@ position: absolute;
     transform: translate(-50%, -50%);
 color: #FFFFFF;
 }
+
+@media screen and (min-width: 401px) and (max-width: 801px) {
+
+    .banner-text {
+        font-size: 24px;
+        left: 35%;
+        top: 45%;
+    }
+
+    .banner img {
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+
+ }

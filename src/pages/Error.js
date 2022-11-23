@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const Error = () => {
   return (
-    <div>
+    <div className="container-error">
       <div className="title-error">404</div>
       <div className="text-error">
         Oups ! La page que vous demandez n'existe pas.

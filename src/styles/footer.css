@@ -28,3 +28,16 @@
     font-size: 24px;
     line-height: 142.6%;
 }
+
+@media screen and (min-width: 401px) and (max-width: 801px) { 
+
+
+    .kasa-logo-footer {
+        width: 100px;
+    }
+
+    .text-footer {
+        font-size: 12px;
+    }
+
+}

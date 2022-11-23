@@ -2,58 +2,72 @@
 
 .about {
 
-
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
-line-height: 142.6%;
-/* or 34px */
-
-display: flex;
-align-items: flex-end;
-text-align: right;
-
 color: #FF6060;
-
+margin-left: 60px;
 }
 
 .acceuil {
-
-
 font-family: 'Montserrat';
 font-style: normal;
 font-weight: 500;
 font-size: 24px;
-line-height: 142.6%;
-/* or 34px */
-
-
 color: #FF6060;
 
 }
 
-.kasa-logo-header {
+.logo-header {
     margin-top: 40px;
 }
 
-.header {
+header {
 display: flex;
 justify-content: space-between;
-padding-bottom: 60px;
-margin-left: 100px;
-margin-right: 100px;
+padding : 20px 100px 60px 100px;
 }
 
 .nav {
     display: flex;
     list-style: none;
-}
-
-.about {
-    margin-left: 60px;
+    margin-top: 30px;
+    width: fit-content;
 }
 
 a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 401px) and (max-width: 801px) {
+
+    header {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 0;
+        /* width: fit-content; */
+        margin-bottom: 20px;
+    } 
+
+    .logo-header {
+        width: 30%;
+        height: 30%;
+        margin-top: 10px;
+    }
+
+    .acceuil {
+        font-size: 15px;
+    }
+    
+    .about {
+        font-size: 15px;
+        margin-left: 15px;
+    }
+
+    .nav {
+        margin-top: 10px;
+        text-transform: uppercase;
+    }
 }

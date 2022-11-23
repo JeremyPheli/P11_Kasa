@@ -12,7 +12,7 @@ const About = () => {
   ];
 
   return (
-    <div className="main">
+    <div className="main-container">
       <Banner />
       <div className="container-dropdown">
         <DropDown props={data[0]} title={"fiabilité"} />

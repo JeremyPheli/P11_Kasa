@@ -1,13 +1,13 @@
 import React from "react";
 import Banner from "../components/Banner";
-// import Location from "../components/Location";
 import Card from "../components/Card";
 import "../styles/card.css";
+import "../styles/home.css";
 import { locationList } from "../datas/locationList";
 
 const Home = () => {
   return (
-    <div>
+    <main className="home">
       <Banner />
       <div className="body">
         <div className="location">
@@ -16,7 +16,7 @@ const Home = () => {
           ))}
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
