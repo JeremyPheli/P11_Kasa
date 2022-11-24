@@ -16,7 +16,6 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/logement/:id" element={<Accomodation />} />
-          {/* Si l'utilisateur cherche un URL qui n'existe pas, on renvoit vers une page d'erreur 404  */}
           <Route path="*" element={<Error />} />
         </Routes>
         <Footer />

@@ -1,5 +1,5 @@
 import React from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Navigate } from "react-router-dom";
 import Caroussel from "../components/Caroussel";
 import DropDown from "../components/DropDown";
 import Rating from "../components/Rating";
@@ -10,12 +10,13 @@ import "../styles/accomodation.css";
 const Accomodation = () => {
   const { id } = useParams();
   const accomodation = locationList.find((Object) => Object.id === id);
+  if (!accomodation) {
+    return <Navigate to="/404" />;
+  }
 
   return (
     <main className="accomodation">
-      <div>
-        <Caroussel images={accomodation.pictures} />
-      </div>
+      <Caroussel images={accomodation.pictures} />
       <div className="accomodation-header">
         <div className="header-left">
           <h1 className="header-title">{accomodation.title}</h1>
